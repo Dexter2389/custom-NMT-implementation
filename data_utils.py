@@ -1,7 +1,6 @@
 import nltk
 from collections import Counter
 
-
 def preprocess(text, language="english", lower=True):
     """Tokenize and lower the text"""
     words = []
